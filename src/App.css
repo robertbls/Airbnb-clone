@@ -2,37 +2,233 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*.App-logo {*/
+/*  height: 40vmin;*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+/*  .App-logo {*/
+/*    animation: App-logo-spin infinite 20s linear;*/
+/*  }*/
+/*}*/
+
+/*.App-header {*/
+/*  background-color: FFFFFF;*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: white;*/
+/*}*/
+
+/*.App-link {*/
+/*  color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
+
+* {
+  box-sizing: border-box;
+  /*padding: 0;*/
+  /*margin: 0;*/
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  display: flex;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*HEADER SECTION*/
+
+.header {
+  color: #FF5A5F;
+  font-weight: bold;
+  font-size: 2.5vh;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+
+  /*text-align: center;*/
+  /*display: block;*/
+  /*padding: 10px 10px 10px 10px;*/
+  /*margin: 100px 10px 10px 10px;*/
+  /*background: dodgerblue;*/
+
+  /*vertical-align: middle;*/
+}
+
+.air_logo {
+  max-width: 100px;
+}
+
+/*.header {*/
+/*  display: flex;*/
+/*  background: #FFFFFF;*/
+/*  !*margin-right: -10px;*!*/
+/*  padding: 30px 20px 10px 10px;*/
+/*  !*border-bottom: blue 1px solid;*!*/
+/*  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+/*  !*vertical-align: middle;*!*/
+/*}*/
+
+
+
+/*HERO SECTION*/
+
+.hero_section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.hero_pics {
+  max-width: 400px;
+  align-self: center;
+  /*display: grid;*/
+  /*grid-template: 100px 100px / 60px 80px 70px 50px;*/
+  /*grid-column-gap: 10px;*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*.hero_pic {*/
+/*  !*padding: 5px 5px;*!*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*}*/
+
+/*.one {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  margin-top: 30px;*/
+/*  grid-column: 1/2;*/
+/*  grid-row: 1/3;*/
+/*}*/
+
+/*.two {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  margin-top: 10px;*/
+/*  grid-column: 2/3;*/
+/*  grid-row: 1/2*/
+/*}*/
+
+/*.three {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  justify-content: left;*/
+/*  grid-column: 2/3;*/
+/*  grid-row: 2/3;*/
+/*  margin-left: 20px;*/
+/*  margin-top: -20px;*/
+/*}*/
+
+/*.four {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  grid-column: 3/4;*/
+/*  grid-row: 1/2;*/
+/*  margin-top: 35px;*/
+/*}*/
+
+/*.five{*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  grid-column: 3/4;*/
+/*  grid-row: 2/3;*/
+/*  margin-top: 25px;*/
+/*}*/
+
+/*.six {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  grid-column: 4/5;*/
+/*  grid-row: 1/2;*/
+/*  margin-top: -10px;*/
+/*  margin-left: -10px;*/
+/*}*/
+
+/*.seven {*/
+/*  max-width: 74px;*/
+/*  max-height: 85px;*/
+/*  grid-row: 2/3 ;*/
+/*  grid-column: 4/5;*/
+/*  margin-left: -10px;*/
+/*  margin-top: -15px;*/
+/*}*/
+
+
+.h1_section {
+  font-weight: 600;
+}
+
+.p_section {
+  font-weight: 300;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* CARDS SECTION*/
+
+/*.cards {*/
+/*  display: grid;*/
+/*  grid-template: auto /  110px 110px 110px;*/
+/*  grid-column-gap:80px;*/
+/*  padding-left: 20px;*/
+/*}*/
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  width: 200px ;
+}
+
+.card {
+  width: 120px;
+  max-height: 160px;
+  border-radius: 10px;
+  /*width: 100%;*/
+}
+
+.star {
+  color: #FE395C;
+}
+
+.grey_rating {
+  color:  grey;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card_rating {
+  margin-bottom: -10px;
+  /*display: flex;*/
+}
+
+.card_description {
+  margin-bottom: -10px;
+}
+
+.card_price {
+  margin-bottom: -10px;
 }
